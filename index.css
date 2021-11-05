@@ -14,30 +14,25 @@
 
 header {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   background-color: rgb(29, 28, 28);
   min-height: 150px;
   flex-wrap: wrap;
 }
+
 #img-logo{
   width: 300px;
 }
 
-#box1{
-  margin-left: 200px;
-  color: whitesmoke;
-  border: solid 2px gainsboro;
-  background-color: gray;
+.box1{
+  margin: 0 auto;
   
 }
 
-#box2{
-  margin-left: 150px;
-  color: whitesmoke;
-  border: solid 2px gainsboro;
-  background-color: gray;
-  
+.box1 img{
+  height: 65px;
+  float: right;
 }
 
 #menu-principal {
