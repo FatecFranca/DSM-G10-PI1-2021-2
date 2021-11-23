@@ -64,7 +64,8 @@ a {
 }
 
 .first-menu ul li a:hover{
-	color: #d4ac26;
+	filter: brightness(1.15);
+	text-decoration: underline;
 }
 
 
@@ -535,6 +536,10 @@ a {
 	color: #fff;
 }
 
+.footer-category div ul li a:hover{
+	text-decoration: underline;
+}
+
 .footer-politics {
 	color: #fff;
 	background-color: #ed7f2b;
@@ -542,4 +547,33 @@ a {
 	font-size: 15px;
 	border-top: 1px solid #cccccc;
 	padding: 20px 0;
+}
+
+
+.text-input p{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: rgb(53, 52, 52);
+	text-align: left;
+	margin-left: 35px;
+	font-size: 35px;
+}
+
+.text-input ul li a{
+	display: flex;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-left: 50px;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.text-input ul li a img{
+	filter: brightness(0.1);
+	padding-right: 10px;
+	width: 35px;
+	height: 35px;
+}
+
+.text-input ul li a:hover {
+	color: #ff6f00;
+	text-decoration: underline;
 }
