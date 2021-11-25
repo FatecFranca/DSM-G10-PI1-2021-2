@@ -577,3 +577,12 @@ a {
 	color: #ff6f00;
 	text-decoration: underline;
 }
+.texto h4{
+	text-align: center;
+}
+.texto p{
+	text-align: justify;
+	border: 2px;
+	margin: 25px;
+    padding: 12px;
+}
