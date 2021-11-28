@@ -68,6 +68,16 @@ a {
 	text-decoration: underline;
 }
 
+.second-menu nav{
+	margin: 0 -80px;
+}
+
+.second-menu nav a svg{
+	width: 75%;
+	margin: -25px -25px -35px -25px;
+	padding-left: 12px;
+}
+
 
 .second-menu{
 	display: flex;
@@ -92,6 +102,7 @@ a {
 	font-size: 20px;
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
+	margin-left: 10px;
 }
 
 .second-menu nav ul li a::after {
